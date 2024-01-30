@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Figtree:wght@600;800&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    width: 100vw;
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+    
+
+
+
+}
+
+.container {
+    background-color: whitesmoke;
+    margin: 15px;
+
+
+}
+
+.benefits {
+    padding: 25px;
+
+
+}
+
+.benefits-title {
+    color: hsl(179, 62%, 43%);
+
+}
+
+.benefits h3 {
+    color: hsl(71, 73%, 54%);
+    margin: 30px 0;
+}
+
+.benefits p {
+    color: gray;
+    line-height: 1.6rem;
+}
+
+.offers {
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+}
+
+.offers p {
+    color: whitesmoke;
+}
+
+.subscription-title {
+    color: white;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0 20px;
+}
+
+.price {
+    font-size: 36px;
+    color: white;
+}
+
+.month {
+    color: hsl(204, 43%, 93%)
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 35px;
+    color: whitesmoke;
+    font-size: 15px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.question {
+    background-color: hsl(179, 61%, 48%);
+    padding: 20px;
+}
+
+.question-title {
+    color: whitesmoke;
+    margin: 10px 0;
+}
+
+.list {
+    color: hsl(204, 43%, 93%);
+    line-height: 1.6rem;
+    list-style-type: none;
+
+}
+
+@media screen and (min-width: 378px) {
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .subscription {
+        display: flex;
+    }
+
+    .question {
+        width: 50%;
+    }
+
+    .offers {
+        width: 50%;
+    }
+
+}
